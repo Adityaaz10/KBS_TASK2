@@ -1,3 +1,4 @@
 # KBS_TASK2
-KBS sophomore selection Task 2 code and simulation images 
+KBS sophomore selection Task 2 code and simulation images .
+
 The contract provides authorities with a detailed, immutable record of every peer-to-peer transaction, capturing the sender, receiver, amount, timestamp, and unique transaction ID in every case. By systematically logging each transfer—even those that create loops or return funds to previous addresses—the contract enables investigators to reconstruct the entire flow of stolen funds. Its "traceFlow" function automates the process of following ETH through all intermediary wallets, identifying every downstream recipient while preventing double-counting when loops are present. This allows authorities to clearly visualize the path of illegal assets, detect suspicious cycles, and pinpoint both the original source and final beneficiaries—even in deliberately confusing money-laundering patterns involving complex, looping transactions.
